@@ -11,9 +11,9 @@ public class Main1
         long floatStartTime = System.currentTimeMillis();
 
         int floatCounter = 0;
-        double floatNumber = 0;
-        double floatIncrement = 0.000000001; // One billionth
-        double floatTarget = 1;
+        float floatNumber = 0;
+        float floatIncrement = (float) 0.000000001; // One billionth
+        float floatTarget = 1;
 
         while (floatNumber < floatTarget)
         {
