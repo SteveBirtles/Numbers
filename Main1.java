@@ -6,29 +6,6 @@ public class Main1
     public static void main(String[] args)
     {
 
-        System.out.println ("Float calculation in progress...");
-
-        long floatStartTime = System.currentTimeMillis();
-
-        int floatCounter = 0;
-        float floatNumber = 0;
-        float floatIncrement = (float) 0.000000001; // One billionth
-        float floatTarget = 1;
-
-        while (floatNumber < floatTarget)
-        {
-            floatCounter++;
-            floatNumber += floatIncrement;
-        }
-
-        System.out.println ("Result: " + floatNumber);
-
-        long floatEndTime = System.currentTimeMillis();
-        System.out.println ("Calculated in " + floatCounter + " steps taking " 
-            + (floatEndTime - floatStartTime) / 1000.0 + " seconds");
-
-        // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
         System.out.println ();        
         System.out.println ("Double calculation in progress...");
 
